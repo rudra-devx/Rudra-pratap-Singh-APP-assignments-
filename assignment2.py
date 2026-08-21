@@ -21,7 +21,7 @@ class Report:
         print("Title:", self.title)
         print("Content:", self.content)
 
-    # Magic method
+ 
     def __str__(self):
         return self.title
 Report.template()
